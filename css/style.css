@@ -1,0 +1,267 @@
+/* GLOBAL SETUP */
+body {
+    background: #73BFB8;
+    font-family: arial, sans-serif;
+    font-size: small;
+}
+
+.container {
+    padding: 0 0 20px;
+    margin: 30px auto;
+    color: #fff;
+    background: #3DA5D9;
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+/* GLOBAL SETUP END */
+
+/* TOP BAR */
+.top-bar {
+    padding: 10px;
+    border-bottom: 1px solid #000;
+    text-align: right;
+    background: #2364AA;
+}
+
+.top-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.top-bar form, .top-bar p {
+    float: left;
+}
+
+.top-bar a {
+    padding-right: 2%;
+    color: #fff;
+}
+
+.top-bar a:hover {
+    text-decoration: underline;
+    color: #EA7317;
+}
+
+.logout:hover {
+    color: red !important;
+}
+
+.top-bar p {
+    padding: 0 10px;
+    color: #fff;
+}
+/* TOP BAR END */
+
+/* HEADER */
+header {
+    text-align: center;
+}
+
+header a {
+    display: block;
+    padding: 5px 0 15px;
+    font-size: 100px;
+    transition: all 0.4s ease-in;
+    color: #2364AA;
+    text-shadow: 0 1px 1px #ddd,
+                 0 2px 1px #d6d6d6,
+                 0 3px 1px #ccc,
+                 0 4px 1px #c5c5c5,
+                 0 5px 1px #c1c1c1,
+                 0 6px 1px #bbb,
+                 0 7px 1px #777,
+                 0 8px 3px rgba(100, 100, 100, 0.4),
+                 0 9px 5px rgba(100, 100, 100, 0.1),
+                 0 10px 7px rgba(100, 100, 100, 0.15),
+                 0 11px 9px rgba(100, 100, 100, 0.2),
+                 0 12px 11px rgba(100, 100, 100, 0.25),
+                 0 13px 15px rgba(100, 100, 100, 0.3);
+}
+
+header a:hover {
+    color: #3DA5D9;
+}
+/* HEADER END */
+
+/* NAVIGATION */
+nav {
+    margin-bottom: 15px;
+    background: #2364AA;
+}
+/* NAVIGATION END */
+
+/* MAIN CONTENT */
+section {
+    margin: 20px 0;
+    padding-bottom: 50px;
+}
+
+section h3, section h4 {
+    text-align: center;
+    color: #fff;
+}
+
+section > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+section.notice {
+    float: none;
+    width: auto;
+}
+
+.radio-wrapper, .search-wrapper {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.radio-wrapper label {
+    vertical-align: top;
+    margin-right: 5px;
+}
+
+.search-wrapper form {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.azuriranje {
+    padding: 0 30px;
+}
+
+/* Forms */
+.form {
+    width: 300px;
+    margin: 20px auto;
+}
+
+.form div {
+    margin-bottom: 20px;
+}
+
+.form div label {
+    float: left;
+    width: 100px;
+    line-height: 20px;
+}
+
+.form div label.error {
+    width: 200px;
+    color: red;
+}
+
+.form div select {
+    width: 173px;
+}
+
+.azuriranje .button-success {
+    display: block;
+    margin: 0 auto;
+}
+/* Forms end */
+
+/* Buttons and links */
+.action-link {
+    color: #fff;
+}
+
+.action-link:hover {
+    text-decoration: underline;
+    color: #73BFB8;
+}
+
+.button-success, .button-warning, .button-secondary, .button-secondary1 {
+    display: inline-block;
+    padding: 5px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.button-success {
+    background: #5E9E97;
+}
+
+.button-warning {
+    background: #EA7317;
+}
+
+.button-secondary {
+    background: #FEC601;
+}
+
+.button-secondary1 {
+    background: #33202A;
+}
+/* Buttons and links end */
+
+/* Chart */
+.chart {
+    width: 600px;
+    margin: 0 auto;
+}
+/* Chart End */
+
+/* ======== Tables ======== */
+/* Global */
+table tr th {
+    padding: 5px;
+    color: #fff;
+    background: #333;
+}
+
+table td {
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+/* Global end */
+
+/* Products and users */
+.product-table {
+    width: 40%;
+    margin: 0 auto;
+    table-layout: auto;
+}
+
+.product-table table {
+    width: 500px;
+    border-collapse: collapse;
+}
+/* Products and users end */
+
+/* Web services */
+.table-wrapper table {
+    width: 100%;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.table-wrapper table thead th {
+    border-left: 1px solid #8AEA92;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    background: #2364AA;
+}
+
+.table-wrapper table tbody td {
+    border-left: 1px solid #8AEA92;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+}
+
+.table-wrapper table thead th:first-child, .table-wrapper table tbody td:first-child {
+    border-left: none;
+}
+/* Web services end */
+/* ======== Tables end ======== */
+/* MAIN CONTENT END */
